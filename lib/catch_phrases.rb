@@ -19,8 +19,9 @@ end
 #   link
 # end
 
-def all_phrases
-  puts phrase
-  puts status
-  puts another_phrase
-end
+# this doesn't work as the variables are out of each respective method's scope
+# def all_phrases
+#   puts phrase
+#   puts status
+#   puts another_phrase
+# end
