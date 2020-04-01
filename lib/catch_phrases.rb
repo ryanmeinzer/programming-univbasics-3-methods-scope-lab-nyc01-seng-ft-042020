@@ -13,11 +13,11 @@ def link
   puts another_phrase
 end
 
-# def all_phrases
-#   mario
-#   toadstool
-#   link
-# end
+def all_phrases
+  mario
+  toadstool
+  link
+end
 
 # this doesn't work as the variables are out of each respective method's scope
 # def all_phrases
