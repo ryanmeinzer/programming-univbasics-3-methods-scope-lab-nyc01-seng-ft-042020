@@ -1,8 +1,27 @@
 def mario
-  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
+  phrase = "It's-a me, Mario!"
   puts phrase
 end
 
 def toadstool
+  status = 'Thank You Mario! But Our Princess Is In Another Castle!'
   puts status
 end
+
+def link
+  another_phrase = "It's Dangerous To Go Alone! Take This."
+  puts another_phrase
+end
+
+def all_phrases
+  mario
+  toadstool
+  link
+end
+
+# this doesn't work as the variables are out of each respective method's scope
+# def all_phrases
+#   puts phrase
+#   puts status
+#   puts another_phrase
+# end
