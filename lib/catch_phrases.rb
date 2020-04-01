@@ -20,7 +20,7 @@ end
 # end
 
 def all_phrases
-  phrase
-  status
-  another_phrase
+  puts phrase
+  puts status
+  puts another_phrase
 end
