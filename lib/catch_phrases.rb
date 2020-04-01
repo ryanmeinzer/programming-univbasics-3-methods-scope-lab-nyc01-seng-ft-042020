@@ -13,14 +13,14 @@ def link
   puts another_phrase
 end
 
-# def all_phrases
-#   mario
-#   toadstool
-#   link
-# end
-
 def all_phrases
   mario
   toadstool
   link
 end
+
+# def all_phrases
+#   mario
+#   toadstool
+#   link
+# end
